@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B819CC592B7753F400531702 /* FoodConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC582B7753F400531702 /* FoodConnectApp.swift */; };
+		B819CC5B2B7753F400531702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC5A2B7753F400531702 /* ContentView.swift */; };
+		B819CC5D2B7753F500531702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B819CC5C2B7753F500531702 /* Assets.xcassets */; };
+		B819CC602B7753F500531702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B819CC5F2B7753F500531702 /* Preview Assets.xcassets */; };
+		B819CC6A2B7753F500531702 /* FoodConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC692B7753F500531702 /* FoodConnectTests.swift */; };
+		B819CC742B7753F500531702 /* FoodConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC732B7753F500531702 /* FoodConnectUITests.swift */; };
+		B819CC762B7753F500531702 /* FoodConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC752B7753F500531702 /* FoodConnectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B819CC662B7753F500531702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B819CC4D2B7753F400531702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B819CC542B7753F400531702;
+			remoteInfo = FoodConnect;
+		};
+		B819CC702B7753F500531702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B819CC4D2B7753F400531702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B819CC542B7753F400531702;
+			remoteInfo = FoodConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B819CC552B7753F400531702 /* FoodConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B819CC582B7753F400531702 /* FoodConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodConnectApp.swift; sourceTree = "<group>"; };
+		B819CC5A2B7753F400531702 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B819CC5C2B7753F500531702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B819CC5F2B7753F500531702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B819CC652B7753F500531702 /* FoodConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B819CC692B7753F500531702 /* FoodConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodConnectTests.swift; sourceTree = "<group>"; };
+		B819CC6F2B7753F500531702 /* FoodConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B819CC732B7753F500531702 /* FoodConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodConnectUITests.swift; sourceTree = "<group>"; };
+		B819CC752B7753F500531702 /* FoodConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B819CC522B7753F400531702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B819CC622B7753F500531702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B819CC6C2B7753F500531702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B819CC4C2B7753F400531702 = {
+			isa = PBXGroup;
+			children = (
+				B819CC572B7753F400531702 /* FoodConnect */,
+				B819CC682B7753F500531702 /* FoodConnectTests */,
+				B819CC722B7753F500531702 /* FoodConnectUITests */,
+				B819CC562B7753F400531702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B819CC562B7753F400531702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC552B7753F400531702 /* FoodConnect.app */,
+				B819CC652B7753F500531702 /* FoodConnectTests.xctest */,
+				B819CC6F2B7753F500531702 /* FoodConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B819CC572B7753F400531702 /* FoodConnect */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC582B7753F400531702 /* FoodConnectApp.swift */,
+				B819CC5A2B7753F400531702 /* ContentView.swift */,
+				B819CC5C2B7753F500531702 /* Assets.xcassets */,
+				B819CC5E2B7753F500531702 /* Preview Content */,
+			);
+			path = FoodConnect;
+			sourceTree = "<group>";
+		};
+		B819CC5E2B7753F500531702 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC5F2B7753F500531702 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B819CC682B7753F500531702 /* FoodConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC692B7753F500531702 /* FoodConnectTests.swift */,
+			);
+			path = FoodConnectTests;
+			sourceTree = "<group>";
+		};
+		B819CC722B7753F500531702 /* FoodConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC732B7753F500531702 /* FoodConnectUITests.swift */,
+				B819CC752B7753F500531702 /* FoodConnectUITestsLaunchTests.swift */,
+			);
+			path = FoodConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B819CC542B7753F400531702 /* FoodConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B819CC792B7753F500531702 /* Build configuration list for PBXNativeTarget "FoodConnect" */;
+			buildPhases = (
+				B819CC512B7753F400531702 /* Sources */,
+				B819CC522B7753F400531702 /* Frameworks */,
+				B819CC532B7753F400531702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodConnect;
+			productName = FoodConnect;
+			productReference = B819CC552B7753F400531702 /* FoodConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B819CC642B7753F500531702 /* FoodConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B819CC7C2B7753F500531702 /* Build configuration list for PBXNativeTarget "FoodConnectTests" */;
+			buildPhases = (
+				B819CC612B7753F500531702 /* Sources */,
+				B819CC622B7753F500531702 /* Frameworks */,
+				B819CC632B7753F500531702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B819CC672B7753F500531702 /* PBXTargetDependency */,
+			);
+			name = FoodConnectTests;
+			productName = FoodConnectTests;
+			productReference = B819CC652B7753F500531702 /* FoodConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B819CC6E2B7753F500531702 /* FoodConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B819CC7F2B7753F500531702 /* Build configuration list for PBXNativeTarget "FoodConnectUITests" */;
+			buildPhases = (
+				B819CC6B2B7753F500531702 /* Sources */,
+				B819CC6C2B7753F500531702 /* Frameworks */,
+				B819CC6D2B7753F500531702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B819CC712B7753F500531702 /* PBXTargetDependency */,
+			);
+			name = FoodConnectUITests;
+			productName = FoodConnectUITests;
+			productReference = B819CC6F2B7753F500531702 /* FoodConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B819CC4D2B7753F400531702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B819CC542B7753F400531702 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B819CC642B7753F500531702 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B819CC542B7753F400531702;
+					};
+					B819CC6E2B7753F500531702 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B819CC542B7753F400531702;
+					};
+				};
+			};
+			buildConfigurationList = B819CC502B7753F400531702 /* Build configuration list for PBXProject "FoodConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B819CC4C2B7753F400531702;
+			productRefGroup = B819CC562B7753F400531702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B819CC542B7753F400531702 /* FoodConnect */,
+				B819CC642B7753F500531702 /* FoodConnectTests */,
+				B819CC6E2B7753F500531702 /* FoodConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B819CC532B7753F400531702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B819CC602B7753F500531702 /* Preview Assets.xcassets in Resources */,
+				B819CC5D2B7753F500531702 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B819CC632B7753F500531702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B819CC6D2B7753F500531702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B819CC512B7753F400531702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B819CC5B2B7753F400531702 /* ContentView.swift in Sources */,
+				B819CC592B7753F400531702 /* FoodConnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B819CC612B7753F500531702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B819CC6A2B7753F500531702 /* FoodConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B819CC6B2B7753F500531702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B819CC742B7753F500531702 /* FoodConnectUITests.swift in Sources */,
+				B819CC762B7753F500531702 /* FoodConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B819CC672B7753F500531702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B819CC542B7753F400531702 /* FoodConnect */;
+			targetProxy = B819CC662B7753F500531702 /* PBXContainerItemProxy */;
+		};
+		B819CC712B7753F500531702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B819CC542B7753F400531702 /* FoodConnect */;
+			targetProxy = B819CC702B7753F500531702 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B819CC772B7753F500531702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B819CC782B7753F500531702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B819CC7A2B7753F500531702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gryffindor.FoodConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B819CC7B2B7753F500531702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gryffindor.FoodConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B819CC7D2B7753F500531702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gryffindor.FoodConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodConnect";
+			};
+			name = Debug;
+		};
+		B819CC7E2B7753F500531702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gryffindor.FoodConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodConnect";
+			};
+			name = Release;
+		};
+		B819CC802B7753F500531702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gryffindor.FoodConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodConnect;
+			};
+			name = Debug;
+		};
+		B819CC812B7753F500531702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gryffindor.FoodConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B819CC502B7753F400531702 /* Build configuration list for PBXProject "FoodConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B819CC772B7753F500531702 /* Debug */,
+				B819CC782B7753F500531702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B819CC792B7753F500531702 /* Build configuration list for PBXNativeTarget "FoodConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B819CC7A2B7753F500531702 /* Debug */,
+				B819CC7B2B7753F500531702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B819CC7C2B7753F500531702 /* Build configuration list for PBXNativeTarget "FoodConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B819CC7D2B7753F500531702 /* Debug */,
+				B819CC7E2B7753F500531702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B819CC7F2B7753F500531702 /* Build configuration list for PBXNativeTarget "FoodConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B819CC802B7753F500531702 /* Debug */,
+				B819CC812B7753F500531702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B819CC4D2B7753F400531702 /* Project object */;
+}
