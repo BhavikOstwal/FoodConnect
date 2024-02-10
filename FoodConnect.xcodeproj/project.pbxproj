@@ -14,6 +14,9 @@
 		B819CC6A2B7753F500531702 /* FoodConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC692B7753F500531702 /* FoodConnectTests.swift */; };
 		B819CC742B7753F500531702 /* FoodConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC732B7753F500531702 /* FoodConnectUITests.swift */; };
 		B819CC762B7753F500531702 /* FoodConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC752B7753F500531702 /* FoodConnectUITestsLaunchTests.swift */; };
+		B819CC832B77556100531702 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC822B77556100531702 /* RegistrationView.swift */; };
+		B819CC882B7762C300531702 /* DataEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC872B7762C300531702 /* DataEntryView.swift */; };
+		B819CC8A2B7763DE00531702 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819CC892B7763DE00531702 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B819CC6F2B7753F500531702 /* FoodConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B819CC732B7753F500531702 /* FoodConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodConnectUITests.swift; sourceTree = "<group>"; };
 		B819CC752B7753F500531702 /* FoodConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B819CC822B77556100531702 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		B819CC872B7762C300531702 /* DataEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntryView.swift; sourceTree = "<group>"; };
+		B819CC892B7763DE00531702 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				B819CC582B7753F400531702 /* FoodConnectApp.swift */,
-				B819CC5A2B7753F400531702 /* ContentView.swift */,
+				B819CC842B7755B700531702 /* Authentication */,
+				B819CC852B7755EB00531702 /* MapView */,
+				B819CC862B7762A600531702 /* DataEntry */,
 				B819CC5C2B7753F500531702 /* Assets.xcassets */,
 				B819CC5E2B7753F500531702 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				B819CC752B7753F500531702 /* FoodConnectUITestsLaunchTests.swift */,
 			);
 			path = FoodConnectUITests;
+			sourceTree = "<group>";
+		};
+		B819CC842B7755B700531702 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC822B77556100531702 /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B819CC852B7755EB00531702 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC892B7763DE00531702 /* MapView.swift */,
+				B819CC5A2B7753F400531702 /* ContentView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		B819CC862B7762A600531702 /* DataEntry */ = {
+			isa = PBXGroup;
+			children = (
+				B819CC872B7762C300531702 /* DataEntryView.swift */,
+			);
+			path = DataEntry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B819CC832B77556100531702 /* RegistrationView.swift in Sources */,
+				B819CC882B7762C300531702 /* DataEntryView.swift in Sources */,
+				B819CC8A2B7763DE00531702 /* MapView.swift in Sources */,
 				B819CC5B2B7753F400531702 /* ContentView.swift in Sources */,
 				B819CC592B7753F400531702 /* FoodConnectApp.swift in Sources */,
 			);
